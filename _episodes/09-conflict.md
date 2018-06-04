@@ -31,6 +31,8 @@ keypoints:
 > Libya is the fourth largest country in Africa
 > ~~~
 > {: .output}
+> Make sure these changes get merged into upstream before having learners pull
+> in the upstream changes (after they commit their local Libya.md changes).
 > {: .callout}
 
 As soon as people can work in parallel, they'll likely step on each other's
@@ -137,9 +139,9 @@ Automatic merge failed; fix conflicts and then commit the result.
 ~~~
 {: .output}
 
-We see a "CONFLICT" message because changes have been made to the upstream
+We see a "CONFLICT" message because changes have been committed to the upstream
 version of Libya.md, but we changed our local copy without first incorporating
-those in the upstream.
+those.
 
 ![The Conflicting Changes](../fig/conflict.svg)
 
