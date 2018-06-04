@@ -42,8 +42,9 @@ different changes to each copy.  Version control helps us manage these
 [conflicts]({{ page.root }}/reference/#conflicts) by giving us tools to
 [resolve]({{ page.root }}/reference/#resolve) overlapping changes.
 
-To see how we can resolve conflicts, we must first create one.  The file
-`countries/Libya.md` currently looks like this in our repository:
+To see how we can resolve conflicts, we must first create one (This would be
+a good time for someone to merge the helper's Libya.md PR).
+The file `countries/Libya.md` currently looks like this in our repository:
 
 ~~~
 $ cat countries/Libya.md
@@ -173,7 +174,7 @@ Notice the message give us hints about what to do:
 "Fix Conflicts," "git commit," "git add"
 
 We need to resolve the lines in the file that conflict, then add our changes
-to the stating area, then commit the changes.
+to the staging area, then commit the changes.
 
 ~~~
 $ cat countries/Libya.md
