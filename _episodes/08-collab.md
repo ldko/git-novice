@@ -98,16 +98,10 @@ With your new changes pushed to GitHub, you can use the GitHub web interface to 
 
 In order to keep your fork up dated and get any new changes made in the upstream repository, you'll need to merge in upstream changes manually.
 
-Begin by adding your
+Begin by adding the upstream repository
 
 ~~~
 $ git remote add upstream https://github.com/oulib-swc/countries.git
-$ git fetch
-$ git branch -a
-~~~
-
-
-~~~
-$ git merge upstream/master
-$ git push
+$ git pull upstream master
+$ git push origin master
 ~~~
