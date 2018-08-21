@@ -186,7 +186,7 @@ $ git status
 {: .bash}
 
 ~~~
-On branch YOUR-COUNTRY
+On branch update-YOUR-COUNTRY
 nothing to commit, working directory clean
 ~~~
 {: .output}
@@ -212,7 +212,7 @@ $ git branch
 
 ~~~
 * master
-  update-dominica
+  update-YOUR-COUNTRY
 ~~~
 {: .output}
 
