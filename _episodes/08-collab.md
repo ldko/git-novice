@@ -170,7 +170,7 @@ Let's click the button.
 
 Opening a pull request is how we let the original repo owners, who we want to collaborate
 with, know that we have a contribution to the project that we would like
-them to consider including. On the `Open a pull request page, you can see the changes you are
+them to consider including. On the `Open a pull request` page, you can see the changes you are
 proposing. If they look like what you want, update the title and comment boxes to let everyone
 know what you have opened the Pull Request for.
 
