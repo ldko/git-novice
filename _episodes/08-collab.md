@@ -111,10 +111,10 @@ $ git branch
 
 You can also create new branches with this command and call them whatever you
 like--though it may help you and your collaborators if it is a relevant name.
-Let's create a branch called `update-YOUR-COUNTRY`.
+Let's create a branch called `update-country`.
 
 ~~~
-$ git branch update-YOUR-COUNTRY
+$ git branch update-country
 ~~~
 {: .bash}
 
@@ -122,12 +122,12 @@ This created a branch, but we are still on `master` branch. We use `git checkout
 to change to working on our new branch.
 
 ~~~
-$ git checkout update-YOUR-COUNTRY
+$ git checkout update-country
 ~~~
 {: .bash}
 
 ~~~
-Switched to branch 'update-YOUR-COUNTRY'
+Switched to branch 'update-country'
 ~~~
 {: .output}
 
@@ -139,7 +139,7 @@ $ git branch
 
 ~~~
   master
-* update-YOUR-COUNTRY
+* update-country
 ~~~
 {: .output}
 
@@ -156,7 +156,7 @@ Once you're happy with your changes, commit and push them to your forked reposit
 ~~~
 $ git add United_States.md
 $ git commit -m "Updating facts about the US."
-$ git push origin update-YOUR-COUNTRY
+$ git push origin update-country
 ~~~
 {: .bash}
 
@@ -186,7 +186,7 @@ $ git status
 {: .bash}
 
 ~~~
-On branch update-YOUR-COUNTRY
+On branch update-country
 nothing to commit, working directory clean
 ~~~
 {: .output}
@@ -212,7 +212,7 @@ $ git branch
 
 ~~~
 * master
-  update-YOUR-COUNTRY
+  update-country
 ~~~
 {: .output}
 
